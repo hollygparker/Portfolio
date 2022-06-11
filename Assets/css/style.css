@@ -1,0 +1,15 @@
+* {
+    background-color: #DCD0FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3a243b;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-flex; 
+}
+

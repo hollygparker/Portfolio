@@ -7,6 +7,7 @@
 h1 {
     display: flex;
     justify-content: center;
+    font-size: 60px;
 }
 
 nav {
@@ -74,6 +75,10 @@ p {
 #work {
     display: flex;
     margin: 50px;
+}
+
+#work img:hover {
+    padding: 10px;
 }
 
 #contact {

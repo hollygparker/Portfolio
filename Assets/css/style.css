@@ -22,7 +22,7 @@ a {
 
 a:hover {
     background-color: blanchedalmond;
-    border-radius: 20%;
+    border-radius: 50px;
     padding: 10px;
 }
 
@@ -37,10 +37,15 @@ li {
     padding: 10px;
 }
 
-h2 {
+#aboutme {
     padding: 25px;
     margin: auto 0;
     background-color: blanchedalmond;
+}
+
+h2 {
+    padding: 25px;
+    margin: auto 0;
 }
 
 div {
@@ -59,9 +64,31 @@ p {
 }
 
 .mywork {
-    border-radius: 10%;
+    border-radius: 50px;
 }
 
 .mywork:hover {
     opacity: .8;
+}
+
+#work {
+    display: flex;
+    margin: 50px;
+}
+
+#contact {
+    display: flex;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border-radius: 50px;
+}
+
+#submit:hover {
+    background-color: blanchedalmond;
 }

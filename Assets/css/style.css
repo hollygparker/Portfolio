@@ -4,9 +4,26 @@
     color: #3a243b;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+    border-radius: 20%;
+    padding: 10px;
 }
 
 li {
@@ -15,10 +32,36 @@ li {
 
 #about {
     display: flex;
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    padding: 10px;
 }
 
-img {
+h2 {
+    padding: 25px;
+    margin: auto 0;
+    background-color: blanchedalmond;
+}
+
+div {
+    margin: auto 0;
+    background-color: blanchedalmond;
+}
+
+p {
+    background-color: blanchedalmond;
+}
+
+#profilePic {
     height: 40vh;
     float: right;
+    border-radius: 50px;
+}
+
+.mywork {
     border-radius: 10%;
+}
+
+.mywork:hover {
+    opacity: .8;
 }

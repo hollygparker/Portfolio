@@ -118,11 +118,17 @@ form {
 
 label {
     background-color: #CDFFDD;
+    padding: 10px;
 }
 
 input {
     border-radius: 50px;
     background-color: #DCD0FF;
+    padding: 6px;
+}
+
+#submit {
+    margin: 50px;
 }
 
 #submit:hover {

@@ -78,6 +78,11 @@ p {
     border-radius: 50px;
 }
 
+#focusimage {
+    width: 1080px;
+    height: 450px;
+}
+
 .mywork {
     border-radius: 50px;
 }

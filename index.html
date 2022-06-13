@@ -13,13 +13,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#about">about me</a>
+                    <a id="green" href="#about">about me</a>
                 </li>
                 <li>
-                    <a href="#work">projects</a>
+                    <a id="pink" href="#work">projects</a>
                 </li>
                 <li>
-                    <a href="#contact">contact</a>
+                    <a id="blue" href="#contact">contact</a>
                 </li>
             </ul>
         </nav>
@@ -45,14 +45,18 @@
         <section id="work">
             <h2>projects</h2>
             <div>
-                <img class="mywork" src="https://picsum.photos/1080/170" alt="random picture">
-                <img class="mywork" src="https://picsum.photos/350/170" alt="random picture">
-                <img class="mywork" src="https://picsum.photos/350/170" alt="random picture">
-                <img class="mywork" src="https://picsum.photos/350/170" alt="random picture">
+                <div>
+                    <img class="mywork" src="https://picsum.photos/1080/170" alt="random picture">
+                </div>
+                <div>
+                    <img class="mywork" src="https://picsum.photos/350/170" alt="random picture">
+                    <img class="mywork" src="https://picsum.photos/350/170" alt="random picture">
+                    <img class="mywork" src="https://picsum.photos/350/170" alt="random picture">
+                </div>
             </div>
         </section>
         <section id="contact">
-            <h2>contact me</h2>
+            <h2 id="color">contact me</h2>
             <form action="/action_page.php">
                 <label for="fname">first name</label>
                 <input type="text" id="fname" name="firstname" placeholder="first name">
@@ -70,7 +74,19 @@
             </form>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <ul>
+            <li>
+                <a id="green" target="_blank" href="https://github.com/hollygparker">GitHub</a>
+            </li>
+            <li>
+                <a id="pink" target="_blank" href="https://www.linkedin.com/in/holly-parker-70581214a/">LinkedIn</a>
+            </li>
+            <li>
+                <a id="blue" target="_blank" href="https://twitter.com/HollyCodes95">Twitter</a>
+            </li>
+        </ul>
+    </footer>
     
 </body>
 </html>

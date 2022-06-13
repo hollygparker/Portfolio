@@ -49,7 +49,7 @@ h2 {
     margin: auto 0;
 }
 
-div {
+#paragraphs {
     margin: auto 0;
     background-color: blanchedalmond;
 }
@@ -74,9 +74,13 @@ p {
 
 #work {
     display: flex;
-    margin: 50px;
+    margin-top: 10px;
+    margin-right:10px;
+    flex-wrap: wrap;
 }
-
+#work img {
+    padding: 5px;
+}
 #work img:hover {
     padding: 10px;
 }
